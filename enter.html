@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>
+        Weather Forecast
+    </title>
+    <link rel="stylesheet" href="assignment6.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navigationbar">
+            <a  href="index.html">Location Based</a>
+            <a class="currentpage" href="enter.html">Custom Location</a>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <section class="main">
+        </section>
+    </div>
+
+    <section class="inputs">
+
+        <input type="text" placeholder="Enter any city..." id="cityinput">
+        <input type="submit" value="Submit" id="add">
+
+        <button placeholder="submit" id="add"></button>
+
+    </section>
+
+    <section class="display">
+        <div class="wrapper">
+            <h2 id="cityoutput"></h2>
+            <p id="description"></p>
+            <p id="temp"></p>
+            <p id="wind"></p>
+        </div>
+    </section>
+
+    <script src="enter.js"></script>
+
+</body>
+</html>
